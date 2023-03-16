@@ -1,0 +1,52 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  .left{
+    padding-top: 100px;
+    width: 50%;
+  }
+  .right
+  {
+    width: 50%;
+    float: right;
+    padding-top: 100px;
+  }
+
+  .heading{
+    font-size: 50px;
+    color: darkblue;
+  }
+
+  .para{
+    font-size: 25px;
+  }
+
+  .map-container-3{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-3 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+  .card-body{
+    padding: 20px;
+  }
+
+  .name{
+    color:darkblue;
+  }
+
+  .tab_head{
+    color: rgb(198, 69, 46);
+  }
+  
